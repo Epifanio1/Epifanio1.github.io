@@ -1,0 +1,141 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Overpass","Open Sans",Helvetica,sans-serif !important;
+}
+
+
+#footer-page{
+    background: #252527;
+    background-image: linear-gradient(bottom right, #000000 0%,#292e33 100%);
+    font-family: "Overpass","Open Sans",Helvetica,sans-serif;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 30px;
+}
+
+#contenidoPie{
+    margin: 0 auto;
+    width: 940px;
+    border: 15px;
+}
+
+h1{
+    font-size: 2.625rem;
+    font-family: "Overpass","Open Sans",Helvetica,sans-serif;
+    color: #252527;
+    font-weight: 800;
+}
+#ContenidoIzquierdo{
+    width: 74%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#ContenidoDerecho{
+    width: 24%;
+    display: inline-block;
+}
+
+#contenido-Main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+#cab2{
+    width: 970px;
+    margin: 0 auto;
+}
+
+#espacioBlanco{
+    height: 40px;
+}
+#cabezera{
+    background: url("../images/fondoC.png");
+    height: 220px;
+}
+
+.ulMenuMaterias{
+    border-bottom: 1px solid #d2d3d4;
+    list-style: none;
+}
+
+.Liactive{
+    border: 1px solid #d2d3d4;
+    background: #fff;
+    border-color: #d2d3d4;
+    padding-bottom: 1px !important;
+    margin-bottom: -1px !important;
+    border-bottom: 1px solid #FFF;
+}
+
+.Liactive a:after{
+    background: red;
+}
+ 
+li:hover a:after{
+    background: red;
+    transition-duration: 0.4s;
+}
+li{
+    width: auto;
+    display: inline-block;
+    height: max-content;
+}
+
+li > a{
+    padding: 0px 40px 10px 14px;
+    max-height: 50px;
+    width: 100%;
+    text-decoration: none;
+    color: #333;
+}
+
+a:after{
+    background: #8d8d8d;
+    left: 15px;
+    width: 25px;
+    height: 4px;
+    display: block;
+    content: "";
+    margin: 7px 0px 0px 14px;
+    transition-duration: 0.4s;
+}
+
+.nomRepor{
+    vertical-align: top;
+    color: #0088CE;
+    font-weight: bold;
+}
+
+.desRepor{
+    font-size: 14px;
+    color: #0077CE;
+}
+
+.desRepor1{
+    vertical-align: bottom;
+    font-size: 14px;
+    color: #008855;
+    cursor: pointer;
+}
+
+td{
+    border-bottom:  1px solid #8d8d8d;
+}
+
+.textoContnido{
+    font-size: 14px;
+}
+
+#cabezera li > a{
+    padding: 0px 40px 10px 14px;
+    max-height: 50px;
+    width: 100%;
+    text-decoration: none;
+    color: #0088cf;
+}
+
+.LiactiveT a:after{
+    background: red;
+}
